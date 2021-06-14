@@ -1,0 +1,19 @@
+.Navbar {
+  font-family: 'Lato';
+}
+
+.content {
+  font-family: 'Raleway';
+}
+
+@media (min-width: 768px) {
+  .Home, .Projects, .NotFound {
+    margin-top: 3.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .Home, .Projects, .NotFound {
+    margin-top: 5rem;
+  }
+}
