@@ -5,7 +5,7 @@ const Home = () => {
         <div className="column"></div>
         <div className="column is-three-fifths">
           <h3>Hi, I'm Allen.</h3>
-          <p>I'm interested in many things, but am currently most into automation, microservices, manga, video games, and dance.</p>
+          <p>I like a lot of different things. I am currently most interested in automation, microservices, manga, video games, and dance.</p>
         </div>
         <div className="column"></div>
       </div>
