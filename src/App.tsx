@@ -3,11 +3,11 @@ import '@fontsource/lato/400.css';
 import '@fontsource/raleway/400.css';
 import './App.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Navbar from './components/Navbar';
-import Home from './pages/Home';
-import Resume from './pages/Resume';
-import Projects from './pages/Projects';
-import NotFound from './pages/NotFound';
+import Navbar from './components/Navbar/Navbar';
+import Home from './pages/Home/Home';
+import Resume from './pages/Resume/Resume';
+import Projects from './pages/Projects/Projects';
+import NotFound from './pages/NotFound/NotFound';
 
 export default function App() {
   return (

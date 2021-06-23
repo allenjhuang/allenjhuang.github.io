@@ -1,5 +1,5 @@
 import './Projects.css';
-import Project from '../components/Project';
+import Project from '../../components/Project/Project';
 
 const data = [
   {
@@ -8,7 +8,7 @@ const data = [
     description: {
       objective: 'Generate a short quiz from a wiki URL.',
       details: 'Implemented as a Jamstack website and several separately hosted microservices. The app first takes the input URL and requests scraped and transformed data from a service. Using the data, it then retrieves the most important phrases found, masks the most important phrases, and retrieves suggestions for the masks which would be used as alternative multiple choice answers. After all responses from the services have been received, the app proceeds to display the generated quiz. Created for a class project that required the use of Wikipedia and microservices.',
-      technologies: 'Crystal, JavaScript, Svelte, Python, pytextrank, fastText, BERT, FastAPI, Redis, Terraform, Docker, Heroku',
+      technologies: 'Crystal, JavaScript, Svelte, Python, FastAPI, Redis, Terraform, Docker, Heroku',
       contributors: 'Allen J Huang',
       startDate: new Date('2021-04-27'),
     }
@@ -26,7 +26,7 @@ const data = [
   },
   {
     title: 'CARboncycle',
-    href: 'https://carboncycle.herokuapp.com/carboncycle/',
+    href: null,
     description: {
       objective: "Estimate CO2 emissions based on a typical work week's commute.",
       details: 'Implemented as a Panel web app calling Google Maps API to get distances and approximate traffic wait times. Supports several different unit systems through the use of the pint library. Created as a submission for ClimateHacks.',
