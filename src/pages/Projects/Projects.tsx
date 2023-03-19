@@ -4,7 +4,7 @@ import Project from '../../components/Project/Project';
 const data = [
   {
     title: 'Wiki Quiz',
-    href: 'https://wikiquiz.vercel.app/',
+    href: null,
     description: {
       objective: 'Generate a short quiz from a wiki URL.',
       details: 'Implemented as a client-side rendered website calling several separately hosted microservices. The app first takes the input URL and requests scraped and transformed data from a service. Using the data, it then retrieves the most important phrases found, masks the most important phrases, and retrieves suggestions for the masks which would be used as alternative multiple choice answers. After all responses from the services have been received, the app proceeds to display the generated quiz. Created for a class project that required the use of Wikipedia and microservices. Worked on all but the image fetching service of the microservices-oriented project alone.',
@@ -15,7 +15,7 @@ const data = [
   },
   {
     title: 'Portfolio Viz',
-    href: 'https://kzhao32.github.io/portfolio-viz/',
+    href: null,
     description: {
       objective: 'Create a stock map from csv text to help quickly visualize changes in portfolio worth.',
       details: 'Implemented as a client-side rendered website calling a microservice for data retrieval. The app first takes csv text input by file or text and retrieves corresponding market price data from a service. Using the data, it then draws the assets onto a web canvas as individual color-coded rectangles. Originally created as an entry to a finance-themed hackathon and later improved upon. Worked on all parts of the project with one other teammate through pair programming.',
