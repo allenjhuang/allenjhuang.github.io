@@ -1,0 +1,11 @@
+strong {
+  text-decoration: underline;
+}
+
+dd {
+  padding-bottom: 0.3rem;
+}
+
+dd span {
+  font-weight: bold;
+}
