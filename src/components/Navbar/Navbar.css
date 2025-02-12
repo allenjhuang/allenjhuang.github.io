@@ -1,0 +1,15 @@
+.has-dropdown {
+  cursor: pointer;
+}
+
+#navbar-burger {
+  margin-left: 0;  /* Left-aligned burger */
+}
+
+.z-50 {
+  z-index: 50;
+}
+
+.absolute {
+  position: absolute;
+}
